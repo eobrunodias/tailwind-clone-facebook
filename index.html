@@ -17,7 +17,7 @@
         <div
           class="grid md:grid-cols-2 grid-cols-1 md:w-[61.25rem] md:mx-auto mx-0"
         >
-          <div class="">
+          <div class="pt-10">
             <img
               class="w-30 md:w-[18rem] mx-auto md:mx-0 md:-mb-4 md:-ml-8"
               src="src/assets/images/logo_facebook.svg"
@@ -28,34 +28,48 @@
               que fazem parte da sua vida.
             </p>
           </div>
-          <div class="bg-white">
-            <form class="md:flex md:flex-col md:items-center" action="">
-              <input
-                class="md:m-1 rounded border-gray-600 border-2"
-                type="text"
-              />
-              <input
-                class="md:m-1 rounded border-gray-600 border-2"
-                type="text"
-              />
-              <button
-                class="flex-1 bg-main-blue hover:bg-main-blue-hover text-white py-2 px-3 rounded font-bold"
+          <div class="md:w-[24.75rem] md:place-self-end">
+            <div class="p-4 md:border md:shadow-lg rounded-md bg-white">
+              <form class="flex flex-col">
+                <input
+                  type="text"
+                  placeholder="Email ou telefone"
+                  class="flex-1 mb-2 md:mb-3 p-3 rounded md:rounded-md border border-gray-400 bg-gray-200 md:bg-white text-sm md:text-base placeholder-gray-600 md:placeholder-gray-500"
+                />
+                <input
+                  type="text"
+                  placeholder="Senha"
+                  class="flex-1 mb-3 p-3 rounded md:rounded-md border border-gray-400 bg-gray-200 md:bg-white text-sm md:text-base placeholder-gray-600 md:placeholder-gray-50"
+                />
+                <input
+                  type="submit"
+                  value="Entrar"
+                  class="flex-1 mb-3 py-2 px-3 rounded-md bg-main-blue hover:bg-main-blue-hover font-semibold text-white text-xl"
+                />
+              </form>
+              <div
+                class="flex flex-col divide-y divide-gray-400 text-center mt-2 md:mt-0"
               >
-                Entrar
-              </button>
-              <a href="#">Esqueceu a senha?</a>
-              <button
-                class="bg-main-green hover:bg-main-green-hover text-white py-3 px-4 rounded font-bold"
-              >
-                Criar nova conta
-              </button>
-            </form>
-            <span>
+                <div class="pb-4 order-2 md:order-1">
+                  <a href="#" class="text-blue-600 hover:underline"
+                    >Esqueceu a senha?</a
+                  >
+                </div>
+                <div class="pb-6 pt-8 order-1 md:order-2">
+                  <a
+                    href="#"
+                    class="py-3 px-4 bg-main-green hover:bg-main-green-hover text-white text-md md:text-lg font-bold rounded"
+                    >Criar nova conta</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="hidden md:block text-sm mt-5 text-center">
               <p>
-                <a href="#"> Criar uma Página</a> para uma celebridade, banda ou
-                empresa
+                <a href="#" class="font-bold"> Criar uma Página</a> para uma
+                celebridade, banda ou empresa
               </p>
-            </span>
+            </div>
           </div>
         </div>
       </div>
